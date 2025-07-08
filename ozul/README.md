@@ -34,14 +34,15 @@ OZUL is a minimal Pokémon-themed programming language. It supports basic arithm
 
 ## 🐾 Example OZUL Program
 ```ozul
-Pikachu x evolves to 5
-Psyduck y evolves to 3.14
-Eevee name evolves to "Ash"
+Eevee msg is "Hello!"
+release msg
+Pikachu x is 5
+Psyduck y is 3.14
+Eevee name is "Ash"
 release x
 release y
 release name
-catch Pikachu age from trainer
-release age
+catch pokemon_number from trainer
 ```
 
 ---
