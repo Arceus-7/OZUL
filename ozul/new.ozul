@@ -7,3 +7,4 @@ release x
 release y
 release name
 catch pokemon_number from trainer
+release pokemon_number

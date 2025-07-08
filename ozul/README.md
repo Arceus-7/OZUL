@@ -10,27 +10,6 @@ OZUL is a minimal Pokémon-themed programming language. It supports basic arithm
 
 ---
 
-## 🚀 Quick Start (No Coding Required)
-
-**1. Download OZUL**
-- Go to the [GitHub Releases](https://github.com/Arceus-7/OZUL/releases) page.
-- Download the file named `ozul.exe` (for Windows) or the appropriate binary for your computer (Windows, Mac, or Linux).
-- If the file is zipped (`.zip`), double-click it and extract it to a folder (e.g., `OZUL`).
-
-**2. Run Your First OZUL Program**
-- Place your `.ozul` program file (e.g., `myprog.ozul`) in the same folder as `ozul.exe`.
-- On Windows: Double-click `ozul.exe` or open a Command Prompt in that folder and run:
-  ```
-  ozul.exe myprog.ozul
-  ```
-- On Mac/Linux: Open a terminal in that folder and run:
-  ```sh
-  ./ozul myprog.ozul
-  ```
-
-**That’s it!** You’ll see the output of your OZUL program in the window.
-
----
 
 ## 🐾 Example OZUL Program
 ```ozul
@@ -43,18 +22,33 @@ release x
 release y
 release name
 catch pokemon_number from trainer
+release pokemon_number
 ```
 
 ---
 
 ## 🛠️ Advanced: Build from Source
+**1. Download OZUL**
 - Install Go (https://golang.org/dl/)
+- The file is zipped (`.zip`), double-click it and extract it to a folder (e.g., `OZUL`)
 - Open a terminal/command prompt and run:
   ```sh
-  cd ozul
+  cd <the directory of the extracted folder>
   go build -o ozul
   ```
-
+  **2. Run Your First OZUL Program**
+- Place your `.ozul` program file (e.g., `myprog.ozul`) in the same folder as `ozul.exe`.
+- On Windows: Double-click `ozul.exe` or open a Command Prompt in that folder and run:
+  ```
+  ozul.exe myprog.ozul
+  ```
+- On Mac/Linux: Open a terminal in that folder and run:
+  ```sh
+  ./ozul myprog.ozul
+  ```
+ **That’s it!** You’ll see the output of your OZUL program in the window. 
+ ---
+ 
 ## 🛠️ Advanced: Generate C Code
 - To generate C code from your OZUL program:
   ```sh
